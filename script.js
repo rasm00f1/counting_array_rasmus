@@ -1,11 +1,9 @@
 "use strict";
-
+window.addEventListener("DOMContentLoaded", loop);
 const arr = [];
 let counter = 0;
 
 console.log(arr);
-
-loop();
 
 function loop() {
   console.clear();
